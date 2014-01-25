@@ -5,8 +5,8 @@
 
 
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .center-block {
@@ -25,4 +25,8 @@ body {
 
 .form-inline .form-control {
     display: inline-block;
+}
+
+.main-container {
+  background: url('../img/campus.jpg') no-repeat;
 }
