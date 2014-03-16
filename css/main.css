@@ -9,6 +9,37 @@ body {
   padding-bottom: 20px;
 }
 
+.navbar-inverse .navbar-nav>li {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  font-weight: 600;
+  color: white;
+  text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #b88630;
+}
+
+.nav>li>a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-inverse {
+  background-color: #100b00;
+  border-color: #100b00;
+  background-image: none;
+}
+
+.navbar-brand > img {
+  height: inherit;
+  padding-top: 0px;
+  margin-top: -16px;
+}
+
 .center-block {
   display: block;
   margin-top: 40px;
@@ -18,13 +49,13 @@ body {
 }
 
 .form-inline .form-group {
-    display: inline-block;
-    margin-bottom: 0px;
-    vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
 }
 
 .form-inline .form-control {
-    display: inline-block;
+  display: inline-block;
 }
 
 .main-container {
